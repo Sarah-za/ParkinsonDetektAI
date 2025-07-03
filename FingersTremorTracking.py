@@ -102,13 +102,6 @@ while True:
 
     if cv2.waitKey(1) == 27:  # ESC
         break
-#„s“ drückst, wird ein Bild als JPG zu speichern
-# if cv2.waitKey(1) & 0xFF == ord('s'):
-#     filename = f"frame_{cv2.getTickCount()}.jpg"
-#     cv2.imwrite(filename, frame)
-
-# # Load the model and run inference on the webcam
-# YOLO('yolo/last.pt').predict(source=0, show=True, save=True, project='runs/pose/output', name='tests')
 cap.release()
 out.release()
 cv2.destroyAllWindows()
