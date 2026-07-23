@@ -65,8 +65,3 @@ ________________________________________
 -	Mobile App für Selbsttests
 -	Erweiterung auf weitere Symptome (Bradykinese, Rigor)
 
-
-
-
-
->>>>>>> 75b00e39fcf3c801db26da814c91920f8d86c401
