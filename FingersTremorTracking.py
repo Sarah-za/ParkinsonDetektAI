@@ -4,9 +4,6 @@ from ultralytics import YOLO
 from collections import defaultdict
 import time
 import matplotlib.pyplot as plt
-
-
-
 # Modell laden
 model = YOLO("yolo/last.pt")  # dein Hand-Pose-Modell
 
@@ -14,7 +11,7 @@ model = YOLO("yolo/last.pt")  # dein Hand-Pose-Modell
 cap = cv2.VideoCapture(0)
 # VideoWriter vorbereiten
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
-output_path = "C:/Users/sarah/Desktop/PML/pml10/runs/pose/output/"
+output_path = "C:/Users/Latitude 5510/Desktop/PML/pml10/runs/pose/output"
 filename = f"{output_path}tremor_{int(time.time())}.avi"
 out = cv2.VideoWriter(filename, fourcc, 20.0, (640, 480))
 
