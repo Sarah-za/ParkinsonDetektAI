@@ -31,6 +31,7 @@ ________________________________________
 📁 Projektstruktur
 
 
+```plaintext
 ├── HandDetektion.py            # YOLO-basierte Handerkennung
 ├── FingersDetection.py         # Finger-Keypoint-Erkennung
 ├── FingersTremorTracking.py    # Tremortracking & Analyse
@@ -38,6 +39,7 @@ ________________________________________
 ├── models/                     # YOLO-Gewichte
 ├── data/                       # Testvideos, Keypoint-Daten
 └── results/                    # Tremorplots & Analysen
+```
 
 
 ________________________________________
