@@ -2,6 +2,7 @@
 ML gestützte Analyse von Fingerbewegungen zur Parkinson Früherkennung
 ________________________________________
 📌 Über das Projekt
+
 ParkinsonDetektAI ist ein Machine Learning basiertes System zur Analyse feiner Fingerbewegungen über eine einfache Webcam. Ziel ist die Früherkennung motorischer Störungen wie Parkinson, indem subtile Auffälligkeiten wie Tremor, Verlangsamung oder Unregelmäßigkeiten im Bewegungsablauf automatisch erkannt und quantifiziert werden.
 ________________________________________
 🎯 Anwendungsbereiche
@@ -13,6 +14,7 @@ ________________________________________
 - Forschung zu Bewegungsstörungen
 ________________________________________
 🧠 Hauptfunktionen
+
 -	Echtzeit Handerkennung mittels YOLO Pose
 -	Fingertracking über Keypoints (Daumen bis kleiner Finger)
 -	Tremorberechnung über Standardabweichung der Fingerpositionen
@@ -20,12 +22,14 @@ ________________________________________
 -	Speicherung der Bewegungsdaten für spätere Analysen
 ________________________________________
 🛠️ Technologien
+
 -	YOLO Pose (Ultralytics)
 -	OpenCV – Webcam Erfassung & Videobearbeitung
 -	Matplotlib – Echtzeit Plots
 -	Python – Hauptlogik & ML Pipeline
 ________________________________________
 📁 Projektstruktur
+
 ├── HandDetektion.py            # YOLO-basierte Handerkennung
 ├── FingersDetection.py         # Finger-Keypoint-Erkennung
 ├── FingersTremorTracking.py    # Tremortracking & Analyse
@@ -33,8 +37,10 @@ ________________________________________
 ├── models/                     # YOLO-Gewichte
 ├── data/                       # Testvideos, Keypoint-Daten
 └── results/                    # Tremorplots & Analysen
+
 ________________________________________
 📊 Ergebnisse
+
 1. Kein Parkinson
 -	Tremor stabilisiert sich schnell
 -	Werte im Bereich 5–15 Einheiten
@@ -49,6 +55,7 @@ ________________________________________
 -	Typisches Muster eines Ruhetremors
 ________________________________________
 🚀 Ausblick
+
 -	Integration in klinische Systeme
 -	Frequenzanalyse & Tremorklassifikation
 -	Mobile App für Selbsttests
